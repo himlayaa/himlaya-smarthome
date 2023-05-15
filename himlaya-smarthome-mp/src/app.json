@@ -1,0 +1,91 @@
+{
+  "pages": [
+    "pages/login/main",
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/device/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "smart-himlaya",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "展示给客户看的信息"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "cloud": true,
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+      },
+      {
+        "text": "",
+        "pagePath": "pages/device/main",
+        "iconPath": "static/tabs/device.png",
+        "selectedIconPath": "static/tabs/device-active.png"
+      },
+      {
+        "text": "",
+        "pagePath": "pages/logs/main",
+        "iconPath": "static/tabs/orders.png",
+        "selectedIconPath": "static/tabs/orders-active.png"
+      }
+    ],
+
+    "items": [
+      {
+        "name": "",
+        "pagePath": "pages/index/main",
+        "icon": "static/tabs/home.png",
+        "activeIcon": "static/tabs/home-active.png"
+      },
+      {
+        "name": "",
+        "pagePath": "pages/device/main",
+        "icon": "static/tabs/device.png",
+        "activeIcon": "static/tabs/device-active.png"
+      },
+      {
+        "name": "",
+        "pagePath": "pages/logs/main",
+        "icon": "static/tabs/orders.png",
+        "activeIcon": "static/tabs/orders-active.png"
+      }
+    ],
+    "position": "bottom"
+  },
+  "usingComponents": {
+    "van-notify": "@vant/weapp/notify/index",
+    "van-field": "@vant/weapp/field/index",
+    "van-switch": "@vant/weapp/switch/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-toast": "@vant/weapp/toast/index",
+    "van-dialog": "@vant/weapp/dialog/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-image": "@vant/weapp/image/index",
+    "van-slider": "@vant/weapp/slider/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-popup": "@vant/weapp/popup/index",
+    "van-picker": "@vant/weapp/picker/index",
+    "van-collapse": "@vant/weapp/collapse/index",
+    "van-collapse-item": "@vant/weapp/collapse-item/index",
+    "van-notice-bar": "@vant/weapp/notice-bar/index"
+    
+    
+  }
+}

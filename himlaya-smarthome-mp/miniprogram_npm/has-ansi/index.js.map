@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;;;;;;AAAA;AACA;AACA;AACA;AACA","file":"index.js","sourcesContent":["\nvar ansiRegex = require('ansi-regex');\nvar re = new RegExp(ansiRegex().source); // remove the `g` flag\nmodule.exports = re.test.bind(re);\n"]}

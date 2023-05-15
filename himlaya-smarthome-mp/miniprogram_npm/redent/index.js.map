@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;;;;;;AAAA;AACA;AACA;AACA;AACA;AACA","file":"index.js","sourcesContent":["\nconst stripIndent = require('strip-indent');\nconst indentString = require('indent-string');\n\nmodule.exports = (string, count = 0, options) => indentString(stripIndent(string), count, options);\n"]}

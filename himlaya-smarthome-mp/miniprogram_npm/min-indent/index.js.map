@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;;;;;;AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"index.js","sourcesContent":["\nmodule.exports = string => {\n\tconst match = string.match(/^[ \\t]*(?=\\S)/gm);\n\n\tif (!match) {\n\t\treturn 0;\n\t}\n\n\treturn match.reduce((r, a) => Math.min(r, a.length), Infinity);\n};\n"]}

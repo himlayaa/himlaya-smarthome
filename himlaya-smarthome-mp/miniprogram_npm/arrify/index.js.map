@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;;;;;;AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"index.js","sourcesContent":["\nmodule.exports = function (val) {\n\tif (val === null || val === undefined) {\n\t\treturn [];\n\t}\n\n\treturn Array.isArray(val) ? val : [val];\n};\n"]}

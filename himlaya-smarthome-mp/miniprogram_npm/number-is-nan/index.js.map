@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;;;;;;AAAA;AACA;AACA;AACA;AACA","file":"index.js","sourcesContent":["\nmodule.exports = Number.isNaN || function (x) {\n\treturn x !== x;\n};\n"]}
